@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="imperiumapp.API/imperiumapp.API.csproj" Id="6cf9aee2-bd47-4e57-853f-4c506e5f09ea" />
+  <Project Path="imperiumapp.Core/imperiumapp.Core.csproj" Id="b132bc34-3c52-43dd-91b1-f771af1344a1" />
+  <Project Path="imperiumapp.infrastructure/imperiumapp.infrastructure.csproj" Id="f307ec3c-4f78-4269-80e6-da6c46e6bc27" />
+</Solution>
