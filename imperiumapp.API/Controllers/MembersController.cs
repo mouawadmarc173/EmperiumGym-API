@@ -98,8 +98,8 @@ namespace imperiumapp.API.Controllers
                     return NotFound(new { message = "Member not found" });
                 }
 
-                var memberAttendance = _context.AttendanceLogs.Where(a => a.MemberId == id);
-                _context.AttendanceLogs.RemoveRange(memberAttendance);
+                
+               
 
                 var memberSales = _context.SaleTransactions.Where(s => s.MemberId == id);
                 _context.SaleTransactions.RemoveRange(memberSales);

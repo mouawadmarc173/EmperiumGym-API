@@ -15,6 +15,6 @@ namespace imperiumapp.Infrastructure.Data
         public DbSet<Coach> Coaches { get; set; }
         public DbSet<Product> Products { get; set; }
         public DbSet<SaleTransaction> SaleTransactions { get; set; }
-        public DbSet<AttendanceLog> AttendanceLogs { get; set; }
+        
     }
 }
